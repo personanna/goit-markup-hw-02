@@ -94,7 +94,6 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   background-color: var(--accent-color);
   color: var(--hero-color);
 }
@@ -169,7 +168,9 @@ body {
 .footer {
   background-color: #2f303a;
 }
-
+.footer-address {
+  font-style: normal;
+}
 .logo-footer {
   font-family: Raleway;
   font-style: normal;
@@ -200,11 +201,11 @@ body {
 
 .footer-mail,
 .footer-tel {
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--lite-color);
 }
 
 /*-----------------PORTFOLIO-------------------*/
